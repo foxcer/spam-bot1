@@ -444,7 +444,7 @@ if (message.content === 'credit') {
       let count = 0;
       let ecount = 0;
       for(let x = 1; x < 2; x++) {
-        message.channel.send(`d1[ " ${x} " ]`)
+        message.channel.send(`c1[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -454,18 +454,18 @@ if (message.content === 'credit') {
 });
 
 client.on('message', message => {
-  if (message.content === 'd1[ " 1 " ]') {
-message.channel.send('#daily')
+  if (message.content === 'c1[ " 1 " ]') {
+message.channel.send('#credit')
   }
 });
 
 //??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
 
 client2.on('message', message => {
-if (message.content === 'd1[ " 1 " ]') {
+if (message.content === 'c1[ " 1 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 51; x++) {
+      for(let x = 1; x < 21; x++) {
         message.channel.send(`c2[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -487,7 +487,7 @@ client3.on('message', message => {
 if (message.content === 'c2[ " 20 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 51; x++) {
+      for(let x = 1; x < 21; x++) {
         message.channel.send(`c3[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -509,7 +509,7 @@ client4.on('message', message => {
 if (message.content === 'c3[ " 20 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 51; x++) {
+      for(let x = 1; x < 21; x++) {
         message.channel.send(`c4[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -531,7 +531,7 @@ client5.on('message', message => {
 if (message.content === 'c4[ " 20 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 51; x++) {
+      for(let x = 1; x < 21; x++) {
         message.channel.send(`c5[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -553,7 +553,7 @@ client6.on('message', message => {
 if (message.content === 'c5[ " 20 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 51; x++) {
+      for(let x = 1; x < 21; x++) {
         message.channel.send(`c6[ " ${x} " ]`)
           .then(m => {
             count++;
