@@ -443,7 +443,7 @@ client.on('message', message => {
 if (message.content === 'credit') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 3; x++) {
+      for(let x = 1; x < 1; x++) {
         message.channel.send(`c1[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -454,7 +454,7 @@ if (message.content === 'credit') {
 });
 
 client.on('message', message => {
-  if (message.content === 'c1[ " 2 " ]') {
+  if (message.content === 'c1[ " 1 " ]') {
 message.channel.send('#credit')
   }
 });
@@ -462,10 +462,10 @@ message.channel.send('#credit')
 //??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
 
 client2.on('message', message => {
-if (message.content === 'c1[ " 2 " ]') {
+if (message.content === 'c1[ " 1 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 3; x++) {
+      for(let x = 1; x < 1; x++) {
         message.channel.send(`c2[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -476,7 +476,7 @@ if (message.content === 'c1[ " 2 " ]') {
 });
 
 client2.on('message', message => {
-  if (message.content === 'c2[ " 2 " ]') {
+  if (message.content === 'c2[ " 1 " ]') {
 message.channel.send('#credit')
   }  
 });
@@ -484,10 +484,10 @@ message.channel.send('#credit')
 //??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
 
 client3.on('message', message => {
-if (message.content === 'c2[ " 2 " ]') {
+if (message.content === 'c2[ " 1 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 3; x++) {
+      for(let x = 1; x < 1; x++) {
         message.channel.send(`c3[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -498,7 +498,7 @@ if (message.content === 'c2[ " 2 " ]') {
 });
 
 client3.on('message', message => {
-  if (message.content === 'c3[ " 2 " ]') {
+  if (message.content === 'c3[ " 1 " ]') {
 message.channel.send('#credit')
   }
 });
@@ -506,10 +506,10 @@ message.channel.send('#credit')
 //??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
 
 client4.on('message', message => {
-if (message.content === 'c3[ " 2 " ]') {
+if (message.content === 'c3[ " 1 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 3; x++) {
+      for(let x = 1; x < 1; x++) {
         message.channel.send(`c4[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -520,7 +520,7 @@ if (message.content === 'c3[ " 2 " ]') {
 });
 
 client4.on('message', message => {
-  if (message.content === 'c4[ " 2 " ]') {
+  if (message.content === 'c4[ " 1 " ]') {
 message.channel.send('#credit')
   }  
 });
@@ -528,10 +528,10 @@ message.channel.send('#credit')
 //??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
 
 client5.on('message', message => {
-if (message.content === 'c4[ " 2 " ]') {
+if (message.content === 'c4[ " 1 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 3; x++) {
+      for(let x = 1; x < 1; x++) {
         message.channel.send(`c5[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -542,7 +542,7 @@ if (message.content === 'c4[ " 2 " ]') {
 });
 
 client5.on('message', message => {
-  if (message.content === 'c5[ " 2 " ]') {
+  if (message.content === 'c5[ " 1 " ]') {
 message.channel.send('#credit')
   }  
 });
@@ -550,10 +550,10 @@ message.channel.send('#credit')
 //??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
 
 client6.on('message', message => {
-if (message.content === 'c5[ " 2 " ]') {
+if (message.content === 'c5[ " 1 " ]') {
       let count = 0;
       let ecount = 0;
-      for(let x = 1; x < 3; x++) {
+      for(let x = 1; x < 1; x++) {
         message.channel.send(`c6[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -564,7 +564,7 @@ if (message.content === 'c5[ " 2 " ]') {
 });
 
 client6.on('message', message => {
-  if (message.content === 'c6[ " 2 " ]') {
+  if (message.content === 'c6[ " 1 " ]') {
 message.channel.send('#credit')
   }  
 });
