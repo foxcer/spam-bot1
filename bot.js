@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
-const myid = ['660466325746876435660466325746876435'];
-const developers = ['660466325746876435'];
+const myid = ['235148962103951360'];
+const developers = ['235148962103951360'];
 const prefix = ['$'];
 const client = new Discord.Client();
 const client2 = new Discord.Client();
@@ -433,6 +433,139 @@ if (message.content === 'd5[ " 50 " ]') {
 client6.on('message', message => {
   if (message.content === 'd6[ " 50 " ]') {
 message.channel.send('#daily')
+  }  
+});
+
+//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: VZX (Angry Black)
+
+
+client.on('message', message => {
+if (message.content === 'credit') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 2; x++) {
+        message.channel.send(`d1[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client.on('message', message => {
+  if (message.content === 'd1[ " 1 " ]') {
+message.channel.send('#daily')
+  }
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client2.on('message', message => {
+if (message.content === 'd1[ " 1 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`c2[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client2.on('message', message => {
+  if (message.content === 'c2[ " 20 " ]') {
+message.channel.send('#credit')
+  }  
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client3.on('message', message => {
+if (message.content === 'c2[ " 20 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`c3[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client3.on('message', message => {
+  if (message.content === 'c3[ " 20 " ]') {
+message.channel.send('#credit')
+  }
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client4.on('message', message => {
+if (message.content === 'c3[ " 20 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`c4[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client4.on('message', message => {
+  if (message.content === 'c4[ " 20 " ]') {
+message.channel.send('#credit')
+  }  
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client5.on('message', message => {
+if (message.content === 'c4[ " 20 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`c5[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client5.on('message', message => {
+  if (message.content === 'c5[ " 20 " ]') {
+message.channel.send('#credit')
+  }  
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client6.on('message', message => {
+if (message.content === 'c5[ " 20 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`c6[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client6.on('message', message => {
+  if (message.content === 'c6[ " 20 " ]') {
+message.channel.send('#credit')
   }  
 });
 
